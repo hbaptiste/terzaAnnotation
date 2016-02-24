@@ -1,0 +1,34 @@
+{
+  "name": "terzaannotation",
+  "version": "0.0.1",
+  "description": "Annotate terza using annotator.js",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/test.js -v &"
+  },
+  "devDependencies": {
+    "mocha": "1.20.1",
+    "supertest": "0.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbaptiste/terzaAnnotation.git"
+  },
+  "keywords": [
+    "text annotation",
+    "digital humanities",
+    "humanités numériques"
+  ],
+  "author": "Harris Baptiste",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hbaptiste/terzaAnnotation/issues"
+  },
+  "homepage": "https://github.com/hbaptiste/terzaAnnotation#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
